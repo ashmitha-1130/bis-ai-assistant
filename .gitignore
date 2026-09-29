@@ -1,0 +1,6 @@
+.env
+venv/
+__pycache__/
+*.pyc
+data/bis_embeddings_backup.json
+src/rag_test_backup.py

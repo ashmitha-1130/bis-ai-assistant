@@ -1,0 +1,155 @@
+[
+  {
+  "title": "BIS Overview",
+  "category": "General",
+  "content": "The Bureau of Indian Standards (BIS) is India's national standards body. BIS develops Indian Standards and carries out conformity assessment and related activities. BIS standards are intended to support quality, safety, consistency and consumer protection.",
+  "source": "BIS",
+  "url": "https://www.bis.gov.in/"
+},
+{
+  "title": "Finding Applicable Indian Standards",
+  "category": "Standards",
+  "content": "To identify the Indian Standard applicable to a product, a manufacturer should first clearly identify the product and its relevant characteristics, such as its type, intended use, materials, performance characteristics and other applicable specifications. The manufacturer can then search the BIS Standards Portal and other BIS resources for relevant Indian Standards and related information. The applicable standard should be confirmed against the product and the current BIS information.",
+  "source": "BIS - Know Your Standard",
+  "url": "https://www.bis.gov.in/know-your-standard/?lang=en"
+},
+{
+  "title": "BIS Standards",
+  "category": "Standards",
+  "content": "Indian Standards specify requirements, specifications, guidelines or characteristics for products, processes and services. Standards may address areas such as quality, safety, performance, testing, dimensions, materials and other technical requirements. Manufacturers and other stakeholders should refer to the applicable and current Indian Standard for their product.",
+  "source": "BIS Standards Portal",
+  "url": "https://standards.bis.gov.in/"
+},
+{
+  "title": "BIS Certification",
+  "category": "Certification",
+  "content": "BIS operates conformity assessment schemes for products covered by applicable requirements. Depending on the product and applicable scheme, a manufacturer may need to meet specified requirements, use the relevant Indian Standard, undergo testing or assessment, and complete the applicable BIS certification process. The exact requirements depend on the product and the applicable scheme.",
+  "source": "BIS - Product Certification Process",
+  "url": "https://www.bis.gov.in/product-certification/product-certification-process/?lang=en"
+},
+{
+  "title": "BIS CARE",
+  "category": "Consumer Services",
+  "content": "BIS CARE provides consumer-oriented BIS services and information. Consumers can use BIS services to access information related to BIS activities and services, including facilities for checking relevant BIS information and submitting complaints or using consumer-related services.",
+  "source": "BIS",
+  "url": "https://www.bis.gov.in/"
+},
+{
+  "title": "BIS Product Certification",
+  "category": "Certification",
+  "content": "Product certification under BIS is associated with conformity to the applicable Indian Standard and the requirements of the relevant conformity assessment scheme. The manufacturer must follow the requirements applicable to the product and scheme. Requirements can differ between products, so product-specific BIS information should be checked before starting an application.",
+  "source": "BIS - Product Certification Overview",
+  "url": "https://www.bis.gov.in/product-certification/product-certification-overview/?lang=en"
+},
+{
+  "title": "Manufacturer Standards Search",
+  "category": "Industry",
+  "content": "A manufacturer looking for standards should begin with a clear description of the product and its intended application. Useful search information can include product name, product type, material, intended use, technical characteristics and relevant industry terminology. BIS standards resources can then be used to locate potentially applicable standards.",
+  "source": "BIS - Know Your Standard",
+  "url": "https://www.bis.gov.in/know-your-standard/?lang=en"
+},
+{
+  "title": "Consumer BIS Information",
+  "category": "Consumer",
+  "content": "Consumers seeking BIS-related information should use BIS's official services and resources. Information about standards, certification and BIS-related services should be checked against current official BIS sources. If a consumer has a complaint or needs to verify BIS-related information, BIS consumer services can provide relevant facilities.",
+  "source": "BIS",
+  "url": "https://www.bis.gov.in/"
+},
+    {
+  "title": "Electric Food Mixers - IS 4250:2025",
+  "category": "Product Specific Standard",
+  "product_name": "Electric food mixer",
+  "standard_number": "IS 4250:2025",
+  "product_type": "Electric food-mixer, liquidizer, grinder",
+  "intended_use": "Household and similar use",
+  "max_voltage": "250 V a.c.",
+  "official_bis_url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf",
+  "content": "IS 4250:2025 covers electric food-mixers, including liquidizers and grinders, and centrifugal juicers. It is the second revision of the standard and specifies requirements for these products. The standard applies to electric motor-driven food-mixers and centrifugal juicers intended for household and similar use and designed for operation at voltages not exceeding 250 V a.c. For a manufacturer, the next steps are to verify that the product falls within the scope of the standard, review the applicable requirements, check the current BIS conformity assessment requirements for the product, and identify applicable testing or laboratory requirements. The manufacturer should verify the current official BIS information before beginning a certification process.",
+  "source": "BIS - IS 4250:2025",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/04/approved-IS-4250-PM.pdf"
+},
+{
+  "id": "pressure-cooker-001",
+  "title": "Domestic Pressure Cooker - IS 2347:2023",
+  "category": "Product Specific Standard",
+  "product_name": "Domestic pressure cooker",
+  "standard_number": "IS 2347:2023",
+  "product_type": "Domestic pressure cooker",
+  "intended_use": "Domestic use",
+  "max_voltage": "Not applicable",
+  "official_bis_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+  "content": "IS 2347:2023 specifies requirements for domestic pressure cookers. A manufacturer should verify that the product falls within the scope of the standard and check the current BIS conformity assessment and testing requirements before beginning a certification process.",
+  "source": "BIS - IS 2347:2023",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf"
+},
+{
+  "id": "helmet-001",
+  "title": "Industrial Safety Helmets - IS 2925:1984",
+  "category": "Product Specific Standard",
+  "product_name": "Industrial safety helmet",
+  "standard_number": "IS 2925:1984",
+  "product_type": "Industrial safety helmet",
+  "intended_use": "Industrial safety",
+  "max_voltage": "Not applicable",
+  "official_bis_url": "https://bis.gov.in/wp-content/uploads/IS-2925-Product-Manual.pdf",
+  "content": "IS 2925:1984 specifies requirements for industrial safety helmets. The standard includes requirements relating to construction, sizes, workmanship and finish, mass, and performance requirements including shock absorption, penetration, flammability, electrical resistance, water absorption and heat resistance. A manufacturer should verify the current BIS requirements and product scope before beginning certification.",
+  "source": "BIS - IS 2925:1984",
+  "url": "https://www.bis.gov.in/wp-content/uploads/IS-2925-Product-Manual.pdf"
+},
+{
+  "id": "footwear-001",
+  "title": "Safety Footwear - IS 15298 Part 2:2024",
+  "category": "Product Specific Standard",
+  "product_name": "Safety footwear",
+  "standard_number": "IS 15298 Part 2:2024",
+  "product_type": "Personal protective equipment - safety footwear",
+  "intended_use": "Personal protection",
+  "max_voltage": "Not applicable",
+  "official_bis_url": "https://www.bis.gov.in/product-certification/product-specific-information-2/product-manuals/",
+  "content": "IS 15298 Part 2:2024 covers Personal Protective Equipment Part 2 Safety Footwear and is based on ISO 20345:2021 with modifications. A manufacturer should verify the product type, applicable requirements, current BIS conformity assessment requirements and testing requirements before beginning certification.",
+  "source": "BIS - IS 15298 Part 2:2024",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/01/Revised-PM-IS-15298-Part-2.pdf"
+},
+{
+  "id": "water-001",
+  "title": "Packaged Drinking Water - IS 14543:2024",
+  "category": "Product Specific Standard",
+  "product_name": "Packaged drinking water",
+  "standard_number": "IS 14543:2024",
+  "product_type": "Packaged drinking water",
+  "intended_use": "Human consumption",
+  "max_voltage": "Not applicable",
+  "official_bis_url": "https://www.bis.gov.in/wp-content/uploads/2025/01/Revised-PM-IS-14543.pdf",
+  "content": "IS 14543:2024 specifies requirements for packaged drinking water. A manufacturer should verify that the product falls within the scope of the standard and check the current BIS conformity assessment, testing and product-specific requirements before beginning certification.",
+  "source": "BIS - IS 14543:2024",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/01/Revised-PM-IS-14543.pdf"
+},
+{
+  "id": "steel-001",
+  "title": "Structural Steel - IS 2062 Part 1:2025",
+  "category": "Product Specific Standard",
+  "product_name": "Structural steel",
+  "standard_number": "IS 2062 Part 1:2025",
+  "product_type": "Hot rolled medium and high tensile structural steel",
+  "intended_use": "Structural applications",
+  "max_voltage": "Not applicable",
+  "official_bis_url": "https://www.bis.gov.in/wp-content/uploads/2025/07/PM-IS-2062-Part-1.pdf",
+  "content": "IS 2062 Part 1:2025 covers hot rolled medium and high tensile structural steel. A manufacturer should verify the grade, product form, dimensions and other applicable characteristics against the scope and requirements of the standard and check the current BIS conformity assessment and testing requirements.",
+  "source": "BIS - IS 2062 Part 1:2025",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/07/PM-IS-2062-Part-1.pdf"
+},
+{
+  "id": "led-lamp-001",
+  "title": "Self-Ballasted LED Lamps - IS 16102 Part 1:2012",
+  "category": "Product Specific Standard",
+  "product_name": "Self-ballasted LED lamp",
+  "standard_number": "IS 16102 Part 1:2012",
+  "product_type": "Self-ballasted LED lamp for general lighting services",
+  "intended_use": "General lighting",
+  "max_voltage": "Not specified in this dataset",
+  "official_bis_url": "https://www.bis.gov.in/wp-content/uploads/2025/01/PM-IS-16102-Part-1.pdf",
+  "content": "IS 16102 Part 1:2012 covers self-ballasted LED lamps for general lighting services. A manufacturer should verify the lamp type, intended application and applicable product requirements against the current BIS information before beginning certification.",
+  "source": "BIS - IS 16102 Part 1:2012",
+  "url": "https://www.bis.gov.in/wp-content/uploads/2025/01/PM-IS-16102-Part-1.pdf"
+}
+]
