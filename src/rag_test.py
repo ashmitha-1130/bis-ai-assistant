@@ -5,18 +5,13 @@ import ollama
 from sentence_transformers import SentenceTransformer
 
 
-# =========================
-# CONFIG
-# =========================
 
+# Config
 OLLAMA_MODEL = "llama3.2:3b"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 SIMILARITY_THRESHOLD = 0.60
 
-
-# =========================
-# LANGUAGE DETECTION
-# =========================
+# Language detection
 
 def detect_language(text):
 
@@ -65,10 +60,7 @@ def detect_language(text):
     return "English"
 
 
-# =========================
-# ANSWER GENERATION
-# =========================
-
+# Answer generationn
 def generate_answer(question, language, context):
 
     prompt = f"""You are a BIS assistant.
@@ -114,16 +106,13 @@ Answer:"""
 
         text = chunk["message"]["content"]
 
-        # Collect the response without printing it here.
+        # Collect the response without printing it here. (removing redundant responsess)
         # This prevents the answer from appearing twice.
         full_answer += text
 
     return full_answer.strip()
 
-
-# =========================
-# FALLBACK
-# =========================
+# FALLBACK (for prototype main focus - (english,hindi,marathi)
 
 def fallback_message(language):
 
@@ -156,10 +145,7 @@ def fallback_message(language):
         messages["English"]
     )
 
-
-# =========================
 # LOAD DATA
-# =========================
 
 print("Loading embedding model...")
 
@@ -175,11 +161,7 @@ with open(
 
     data = json.load(file)
 
-
-# =========================
 # ASK QUESTION
-# =========================
-
 question = input(
     "\nAsk your BIS question: "
 ).strip()
@@ -192,20 +174,13 @@ print(
     f"\nDetected language: {language}"
 )
 
-
-# =========================
 # MULTILINGUAL SEARCH
-# =========================
-
 query_embedding = model.encode(
     question,
     normalize_embeddings=True
 )
 
-
-# =========================
 # SEMANTIC SEARCH
-# =========================
 
 results = []
 
@@ -230,10 +205,7 @@ results.sort(
     key=lambda x: x[0]
 )
 
-
-# =========================
 # RELEVANT RESULTS
-# =========================
 
 # If the top match is very strong, use only that record.
 # This prevents generic BIS records from distracting the LLM.
@@ -249,9 +221,8 @@ else:
     ][:3]
 
 
-# =========================
-# FALLBACK IF NOTHING FOUND
-# =========================
+
+# FALLBACK IF NOTHING FOUND (dealing with hallucination)
 
 if not top_results:
 
@@ -267,10 +238,7 @@ if not top_results:
 
     exit()
 
-
-# =========================
 # BUILD CONTEXT
-# =========================
 
 context_parts = []
 
@@ -292,16 +260,11 @@ context = "\n".join(
 )
 
 
-# =========================
 # FREE EMBEDDING MODEL MEMORY
-# =========================
 
 del model
 
-
-# =========================
 # LLM GENERATION
-# =========================
 
 print("\nThinking...")
 
@@ -312,9 +275,7 @@ answer = generate_answer(
 )
 
 
-# =========================
 # EXACT STANDARD NUMBER
-# =========================
 
 standard_number = top_results[0][1].get(
     "standard_number",
@@ -340,10 +301,7 @@ if standard_number != "Not identified":
         ""
     ).strip(" -")
 
-
-# =========================
 # FINAL ANSWER
-# =========================
 
 print("\nANSWER:")
 
@@ -356,9 +314,7 @@ if standard_number != "Not identified":
 print(answer)
 
 
-# =========================
 # EVIDENCE
-# =========================
 
 print("\nEVIDENCE:")
 
