@@ -282,17 +282,19 @@ Relevant BIS Records
 Context sent to LLM
       ↓
 AI Generated Answer
+
 🧰 Technology Stack
 Technology	Purpose
-Python	Main programming language
-Sentence Transformers	Generates multilingual embeddings
-paraphrase-multilingual-MiniLM-L12-v2	Multilingual embedding model
-Ollama	Runs the local LLM
-Llama 3.2 3B	Local language model
+Python -> Main programming language
+Sentence Transformers -> Generates multilingual embeddings
+paraphrase-multilingual-MiniLM-L12-v2 ->	Multilingual embedding model
+Ollama ->	Runs the local LLM
+Llama 3.2 3B ->	Local language model
 NumPy	Vector and similarity calculations
 JSON	Knowledge base and embedding storage
 RAG	Retrieval-Augmented Generation architecture
 Git & GitHub	Version control and project hosting
+
 🤖 AI Models Used
 Multilingual Embedding Model
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
@@ -463,6 +465,7 @@ The assistant will then be ready to process BIS questions.
 Example:
 
 Which BIS standard applies to domestic pressure cookers?
+
 🔁 Complete First-Time Setup
 
 For a completely fresh setup, follow this order:
